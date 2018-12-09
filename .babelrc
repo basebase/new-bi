@@ -1,0 +1,9 @@
+{
+  "presets":["react","env"],
+  "env":{
+    "development": {
+      //  babel-preset-react-hmre  用于开启 热替换
+      "presets":["react-hmre"]
+    }
+  }
+}
