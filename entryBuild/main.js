@@ -4,6 +4,6 @@
 
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Index from '../src/component/toolbar/Index'
+import App from '../src/component/app/index'
 
-ReactDOM.render(<Index/>, document.getElementById("app"))
+ReactDOM.render(<App />, document.getElementById("app"))
