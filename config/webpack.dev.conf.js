@@ -51,7 +51,7 @@ let config = merge(baseWebpackConfig, {
             {
                 test: /\.(css|pcss)$/,
                 loader: 'style-loader?sourceMap!css-loader?sourceMap!postcss-loader?sourceMap',
-                exclude: /node_modules/
+                // exclude: /node_modules/
             },
 
             {

@@ -9,6 +9,8 @@ import Footer from '../footer/index'
 import Demo from '../../pages/demo'
 
 import '../../../assert/css/base.css'
+import 'antd/dist/antd.css';  // or 'antd/dist/antd.less'
+
 
 export default class App extends React.Component {
 
@@ -21,9 +23,8 @@ export default class App extends React.Component {
                     <div className="page-content">
                         <Demo />
                     </div>
-
-                    <Footer />
                 </div>
+                <Footer />
             </div>
         )
     }

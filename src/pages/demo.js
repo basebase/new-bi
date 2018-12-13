@@ -12,6 +12,9 @@ export default class Demo extends React.Component {
                 <div className="room"></div>
                 <div className="room"></div>
                 <div className="room"></div>
+                <div className="room"></div>
+                <div className="room"></div>
+                <div className="room"></div>
             </div>
         )
     }

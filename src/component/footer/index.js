@@ -3,7 +3,6 @@
  */
 
 import React from 'react'
-import '../../../assert/css/footer/index.css'
 
 export default class Footer extends React.Component {
     render() {
