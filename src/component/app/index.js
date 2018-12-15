@@ -8,7 +8,7 @@ import ToolBar from '../toolbar/index'
 import Footer from '../footer/index'
 import Demo from '../../pages/demo'
 
-import '../../../assert/css/base.css'
+import '../../../assert/css/layout.css'
 import 'antd/dist/antd.css';  // or 'antd/dist/antd.less'
 
 
