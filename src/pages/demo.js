@@ -9,11 +9,11 @@ export default class Demo extends React.Component {
     render() {
         return (
             <div>
-                <div className="room"></div>
-                <div className="room"></div>
-                <div className="room"></div>
-                <div className="room"></div>
-                <div className="room"></div>
+                {/*<div className="room"></div>*/}
+                {/*<div className="room"></div>*/}
+                {/*<div className="room"></div>*/}
+                {/*<div className="room"></div>*/}
+                {/*<div className="room"></div>*/}
                 <div className="room"></div>
             </div>
         )
