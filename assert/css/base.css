@@ -11,14 +11,13 @@
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start;
-    height: 100%;
-    width: 100%;
+    position: relative;
     /*overflow-y: auto;*/
     /*overflow-x: hidden;*/
 }
 
 .wrapper .sidebar > .m {
-    position: relative;
+    position: absolute;
     width: 250px;
     height: 100%;
 }
@@ -26,6 +25,7 @@
 .wrapper .page-content {
     flex: 1;
     padding: 20px;
+    margin-left: 250px;
 }
 
 .footer {
