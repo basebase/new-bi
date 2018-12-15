@@ -12,6 +12,23 @@
     background-color: #fff;
 }
 
+.nav-top .logo {
+    height: 50px;
+    width: 250px;
+    background-color: #263544;
+}
+
+.nav-top .logo a {
+    cursor: default;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 20px;
+}
+
 .wrapper {
     display: flex;
     flex-direction: row;
