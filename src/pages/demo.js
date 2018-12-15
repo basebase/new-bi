@@ -3,7 +3,7 @@
  */
 
 import React from 'react'
-import '../../assert/css/pages/demo.css'
+// import '../../assert/css/pages/demo.css'
 
 export default class Demo extends React.Component {
     render() {
