@@ -5,5 +5,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import App from '../src/component/app/index'
+import R from '../src/component/router/r'
 
-ReactDOM.render(<App />, document.getElementById("app"))
+ReactDOM.render(<R />, document.getElementById("app"))

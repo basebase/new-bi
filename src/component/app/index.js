@@ -14,6 +14,10 @@ import 'antd/dist/antd.css';  // or 'antd/dist/antd.less'
 
 export default class App extends React.Component {
 
+    constructor(props) {
+        super(props);
+    }
+
     render() {
         return (
             <div className="content">
@@ -21,7 +25,7 @@ export default class App extends React.Component {
                 <div className="wrapper">
                     <Sidebar/>
                     <div className="page-content">
-                        <Demo />
+                        {this.props.children}
                     </div>
                 </div>
                 <Footer />
