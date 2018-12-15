@@ -1,5 +1,6 @@
 #app {
     min-height: 100vh;
+    background-color: #f2f7fb;
 }
 
 .content {
@@ -8,7 +9,7 @@
 
 .nav-top {
     height: 50px;
-    background-color: purple;
+    background-color: #fff;
 }
 
 .wrapper {
@@ -30,6 +31,7 @@
     width: 250px;
     height: 100%;
     min-height: 100vh;
+    background-color: #263544;
 }
 
 .wrapper .page-content {
@@ -40,5 +42,13 @@
 
 .footer {
     height: 60px;
-    background-color: purple;
+    background-color: #fff;
+}
+
+.footer p {
+    margin: 0px;
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
 }
