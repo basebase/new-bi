@@ -1,5 +1,5 @@
 {
-  "presets":["react","env"],
+  "presets":["es2015", "stage-0", "react"],
   "env":{
     "development": {
       //  babel-preset-react-hmre  用于开启 热替换

@@ -4,6 +4,7 @@
 
 import React from 'react'
 import { Menu, Icon, Button } from 'antd';
+import { Link } from 'react-router-dom'
 
 const SubMenu = Menu.SubMenu;
 
@@ -21,7 +22,7 @@ export default class Sidebar extends React.Component {
                 >
                     <Menu.Item key="1">
                         <Icon type="pie-chart" />
-                        <span>Option 1</span>
+                        <span><Link to="/test/a">About</Link></span>
                     </Menu.Item>
                     <Menu.Item key="2">
                         <Icon type="desktop" />

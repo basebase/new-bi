@@ -16,7 +16,7 @@ export default class R extends React.Component {
                 <App>
                     <Switch>
                         <Route exact path="/" component={Demo} />
-                        <Route path="/test" component={Demo2} />
+                        <Route path="/test/a" component={Demo2} />
                     </Switch>
                 </App>
             </Router>
