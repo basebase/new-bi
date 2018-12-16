@@ -282,6 +282,12 @@ export default class Demo extends React.Component {
                     </ButtonGroup>
                 </div>
 
+                <div className="shaft">
+                    <div className="params"></div>
+                    <div className="x"></div>
+                    <div className="y"></div>
+                </div>
+
                 <div id="chart-show">
 
                 </div>
