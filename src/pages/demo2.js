@@ -3,8 +3,9 @@
  */
 
 import React from 'react'
+import { Icon } from 'antd'
 import { WidthProvider, Responsive } from "react-grid-layout"
-import '../../assert/css/pages/demo.css'
+import '../../assert/css/pages/demo2.css'
 import _ from "lodash";
 
 import 'react-grid-layout/css/styles.css'
@@ -66,12 +67,6 @@ export default class Demo2 extends React.Component {
     }
 
     render() {
-        // layout is an array of objects, see the demo for more complete usage
-        var layout = [
-            {i: 'a', x: 0, y: 0, w: 1, h: 2, /*static: true*/},
-            {i: 'b', x: 1, y: 0, w: 3, h: 2, minW: 2, maxW: 4},
-            {i: 'c', x: 4, y: 0, w: 1, h: 2}
-        ];
         return (
             <div>
                 <button onClick={() => this.resetLayout()}>Reset Layout</button>
@@ -85,7 +80,15 @@ export default class Demo2 extends React.Component {
                     }
                 >
                     <div key="1" data-grid={{ w: 2, h: 3, x: 0, y: 0, minW: 2, minH: 3 }}>
-                        <span className="text">1</span>
+                        <div className="card-body">
+                            <div className="icon">
+                                <Icon type="mail" />
+                            </div>
+                            <div className="font">
+                                <div className="sale">$23569</div>
+                                <div className="desc">Revenue</div>
+                            </div>
+                        </div>
                     </div>
                     <div key="2" data-grid={{ w: 2, h: 3, x: 2, y: 0, minW: 2, minH: 3 }}>
                         <span className="text">2</span>
