@@ -10,7 +10,6 @@ import Demo2 from '../../pages/demo2'
 
 export default class R extends React.Component {
     render() {
-        console.log("Go Router")
         return (
             <Router>
                 <App>
