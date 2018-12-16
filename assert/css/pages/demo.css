@@ -34,3 +34,8 @@
     width: 100%;
     height: 500px;
 }
+
+
+.layout div {
+    background-color: #FFF;
+}
