@@ -5,8 +5,7 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import App from "../app/index";
-import Demo from '../../pages/demo'
-import Demo2 from '../../pages/demo2'
+import SearchForm from '../frame/SearchForm'
 
 export default class R extends React.Component {
     render() {
@@ -14,8 +13,7 @@ export default class R extends React.Component {
             <Router>
                 <App>
                     <Switch>
-                        <Route exact path="/" component={Demo} />
-                        <Route path="/test/a" component={Demo2} />
+                        <Route exact path="/" component={ SearchForm } />
                     </Switch>
                 </App>
             </Router>
